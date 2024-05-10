@@ -1,0 +1,12 @@
+.Viewlist {
+    background-color: rgb(160, 231, 89);
+    padding: 5px 30px;
+}
+
+.customCss {
+    background-color: aliceblue;
+    padding: 6px;
+    margin: 5px;
+    font-weight: 600;
+    text-align: left;
+}
