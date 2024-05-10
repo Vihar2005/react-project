@@ -9,7 +9,7 @@ import Viewlist from './Viewlist.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* <Count/> */}
+    <Count/>
     <Viewlist />
    {/* <Counter/> */}
   </React.StrictMode>,

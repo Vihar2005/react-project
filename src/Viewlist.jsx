@@ -14,7 +14,7 @@ const Viewlist = () => {
             <ul>
                 {
                     arr.map((i) => {
-                        return (<li key={i.toString()} className='customCss'>{i}</li>)
+                        // return (<li key={i.toString()} className='customCss'>{i}</li>)
                     })
                 }
             </ul>
