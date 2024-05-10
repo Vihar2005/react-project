@@ -11,6 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <App /> */}
     <Count/>
     <Viewlist />
-   {/* <Counter/> */}
+   <Counter/>
   </React.StrictMode>,
 )
