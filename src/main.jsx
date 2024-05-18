@@ -5,12 +5,15 @@ import './index.css'
 import Count from './count.jsx'
 import Counter from './Counter-classcomp.jsx'
 import Viewlist from './Viewlist.jsx'
+import AppCrud from './Crud.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
     <Count/>
     <Viewlist />
-   <Counter/>
+    {/* <App/> */}
+    <AppCrud />
+   {/* <Counter/> */}
   </React.StrictMode>,
 )
