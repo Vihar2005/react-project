@@ -13,7 +13,9 @@ import DataFetchingComponent from './Customhooks.jsx'
 import Mystylecomp from './Mystylecomp.jsx'
 import Apicomp from './Apicomp.jsx'
 import SelectApi from './SelectApi.jsx'
+import LifecycleFun from './LifecycleFun.jsx'
 // import Apidata from './Apidata.jsx'
+import Lifecycleclass from './Lifecycleclass.jsx'
 
 
 
@@ -34,7 +36,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   {/* <Mystylecomp /> */}
   {/* <Apicomp /> */}
   {/* <Apidata /> */}
-  <SelectApi />
+  {/* <SelectApi /> */}
+  <LifecycleFun color='blue' />
+  {/* <Lifecycleclass color='red'/> */}
  
   </React.StrictMode>,
 )
