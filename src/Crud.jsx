@@ -1,6 +1,6 @@
 import { Suspense, lazy, useState } from 'react'
 import './App.css'
-// import styled from 'styled-components'
+import styled from 'styled-components'
 // const Home = lazy(()=>import('./Home'))
 // const Contact = lazy(()=>import('./Contact'))
 // import Home from './Home'
@@ -15,11 +15,11 @@ function AppCrud() {
     console.log(data);
     setName('')
   }
-//   const H1 = styled.h1 `
-//   font-size: 1.5em;
-//   text-align: center;
-//   color: #BF4F74;
-//   `
+  const H1 = styled.h1 `
+  font-size: 50px;
+  text-align: center;
+  color: #BF4F74;
+  `
 
   const deleteData = (id)=>{
     let a = confirm("Are you sure you want to delete?")
@@ -54,7 +54,7 @@ function AppCrud() {
   return (
     <>
       <div>
-        <h3>CRUD Example</h3>
+        <H1>CRUD Example</H1>
         <input type="text" name="name" id="name" value={name} onChange={(e)=>setName(e.target.value)}/>
         <input type="button" value={id ? "Update Data" : "Save Data"}  onClick={id ? updateData :saveData}/>
         <br /><br />

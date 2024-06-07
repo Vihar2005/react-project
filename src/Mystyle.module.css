@@ -1,0 +1,8 @@
+.abc{
+    color: blue;
+    background-color: rgb(175, 158, 158);
+    height: 300px;
+    width: 500px;
+    border: solid 2px black;
+    padding: 10px;
+}
